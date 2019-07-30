@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallax</title>
+    <style type="text/css">
+        body, html {
+            height: 100%;
+            margin: 0!important;
+        }
+
+        .container {
+            height: 100%;
+        }
+
+        .cel {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+        }
+
+        .responsive {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content {
+            width: 78%;
+            padding-bottom: 50vh;
+            padding-top: 50vh;
+        }
+
+        @media (min-width: 525px) {
+            .content {
+                width: 420px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cel">
+            <img class="responsive center" src="./celular.png">
+        </div>
+    </div>
+
+    <section class="content center">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil sunt itaque tempore sint fugit fuga nesciunt
+            omnis fugiat deserunt eaque, alias unde ratione rerum. Pariatur, porro maiores! Iusto, sit dolores. Lorem,
+            ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium perferendis ex! Repellat illum
+            voluptate a laudantium, consequatur recusandae officiis aspernatur et voluptatibus blanditiis dicta, facere
+            inventore dignissimos amet eos!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iste
+            numquam commodi placeat tempore provident, non voluptates, ratione impedit iusto distinctio labore
+            voluptatibus modi deserunt dolore quia. Minima, ut pariatur!</p>
+    </section>
+</body>
+
+</html>
